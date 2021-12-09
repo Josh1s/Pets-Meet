@@ -1,0 +1,87 @@
+.header{
+	display:flex;
+}
+.logo {
+	padding:10px;
+    height:70px;
+    width:100px;
+}
+body{
+    background-color:#EFE7BC;
+    border:10px dotted black;
+}
+div {
+    border: 1px solid black;
+    padding:10px;
+}
+
+.pfp {
+    width: 200px;  
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+    border:dotted #74BDCB 5px;
+    padding:5px;
+    background-color:white;
+}
+
+.navBar {
+	display:flex;
+    justify-content:space-around;
+}
+
+h1 {
+	padding:10px;
+    font-family: 'Ribeye Marrow', cursive;
+}
+h2 {
+	padding :10px;
+    border:dotted #74BDCB 5px;
+    font-family: 'Ribeye Marrow', cursive;
+}
+p {
+    padding:10px;
+    font-family: 'Caveat', cursive;
+    font-size:22px;
+    color:#74BDCB;
+    background-color:white;
+    border:10px dotted #74BDCB;
+}
+.items{
+    border:dotted #74BDCB 5px;
+    padding:10px;
+    margin:10px;
+	background-color:white;
+    height:25px;
+    width:60px;
+    display:flex;
+    justify-content:space-around;
+}
+.pn{
+	text-align:center;
+}
+.pic {
+	height:180px;
+    width:195px;
+}
+.post{
+    border:5px dotted #EFE7BC;
+    height:110px;
+    width:170px;  
+    border:dotted #74BDCB 5px;
+    margin:10px;
+}
+.friendsList{
+    border:5px dotted #EFE7BC;
+	display:flex;
+    justify-content:space-around;
+}
+.friend{
+    border:dotted #74BDCB 5px;
+    background-color:#E7F2F8;
+}
+.feed {
+    display:flex;
+	flex-direction:column;
+    align-items:center;
+}
